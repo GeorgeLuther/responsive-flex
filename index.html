@@ -14,16 +14,16 @@
 <!-- Header -->
       <header>
         <h1>GEORGE LUTHER</h1>
-        <nav aria-label="Site Menu">       
-            <ul class= "anchor_links" style="font-size: 18px;">
+        <nav class= "anchor-links" aria-label="Site Menu">       
+            <ul style="font-size: 18px;">
                 <li><a href="#intro">Intro</a></li>
                 <li><a href="#about-me">About Me</a></li>
                 <li><a href="#current-projects">Current Projects</a></li>
                 <li><a href="#contact-form">Contact Me</a></li>
             </ul>
         </nav>
-        <nav aria-label="Contact and External Links">
-            <ul class=icons>
+        <nav class="icons" aria-label="Contact and External Links">
+            <ul>
                 <li><a href="https://www.linkedin.com/in/georgeluther/" target="_blank"><i class="fab fa-linkedin" ></i></a></li>
                 <li><a href="https://github.com/GeorgeLuther" target="_blank"><i class="fab fa-github-square"></i></a></li>
                 <li><a href="https://www.instagram.com/georgeluther/?hl=en" target="_blank"><i class="fab fa-instagram-square"></i></a></li>
@@ -39,35 +39,40 @@
       <main>
         <section id="intro">
             <div class="group">
-                <h2>Let's make something together!</h2>
-                <p class="item">
-                    Hi! I'm George, a software developer in the Hartford, CT area
-                    with a background in music composition and audio editing. 
-                    I'm always in search of ways to make things more usable, adaptable, and efficient. 
-                    The thing that drives me is finding where beauty meets structure.
-                </p>
+                <div class="item">
+                    <h3>Let's make something together!</h3>
+                    <p class="item">
+                        Hi! I'm George, a software developer in the Hartford, CT area
+                        with a background in music composition and audio editing. 
+                        I'm always in search of ways to make things more usable, adaptable, and efficient. 
+                        The thing that drives me is finding where beauty meets structure.
+                    </p>
+                </div>
             </div>
         </section>
+<!-- About Me -->
         <section id="about-me">
             <h2>About Me</h2>
             <div class="group">
                     <p class="item">
-                        My code so far has been focused on applying the ‘rules’ and structure of music to new user interfaces, 
-                        utilizing concepts like gamification to understand and manipulate music in a more accessible and physical way. 
+                        My code so far has been focused on applying the ‘rules’ and structure of music to new environments and interfaces. 
+                        I want to help people understand and manipulate music in a more accessible and physical way. 
                         I have explored areas such as stochastic systems, FFT effects, and motion capture. When I’m not coding or making 
-                        music I’m tinkering and building in other ways. You can see some of my other projects <a href="#current_projects">here</a>.
+                        music I’m tinkering and building in other ways. You can see some of my other projects <a href="#current-projects">here</a>.
                     </p>
-                    <img class="me" src="images/me.jpg" width="140" alt="a photo of George"/>
+                    <div class="me">
+                        <img src="images/me.jpg" width="140" alt="a photo of George"/>
+                    </div>
                     <p class="item">
                         I am currently studying in a program called Thinkful where I am honing my skills in web-design and software development so I can help to make more user friendly and functional programs. 
                         Right now I am head over heels for JavaScript. I’m looking for ways to collaborate professionally and get involved in projects outside of my comfort zone so I can continue to grow! 
                     </p>
         </section>
+<!-- Services -->
         <section id="services">
             <h2>Services</h2>
             <div class="group">
                 <div class="item">
-                    <!-- Maybe I can make this entire section into a link to the code? -->
                     <h3>CODE</h3>
                     <p>As a fullstack developer I am a versatile teammate and I love to work in groups of any size. 
                         Below are some of my skills. I also offer freelance services for one-off projects and for keeping your team small.</p>
@@ -82,26 +87,51 @@
                     </ul>
                 </div>
         </section>
-        <section id="current-projects">
+<!-- Current Projects -->
+        <section id="current_projects">
             <h2>CURRENT PROJECTS</h2>
-            <div class="group ">
-                <div class="item">
-                    <a href="https://rhythmodulum.netlify.app/" target="_blank">RHYTHMODULUM</a>
-                    <p>A web app for generating and manipulating rhythmic patterns. Soon to come: MIDI Clock/Transport control, MIDI IN/OUT, and custom sample kits.</p>
+            <div class="group d">
+                <div class="item a">
+                    <h3>RHYTHMODULUM</h3>
+                    <p>A web app for generating and manipulating rhythmic patterns. I built it as part of an ongoing set of tools for scripted music creation. My goal for this project is to make it easy for anyone to create highly specific or totally improvised enjoyable and intricate rhythmic data and percussion as quickly as possible. This was created with HTML, CSS, and JavaScript with original algorithms as well as implementation of the Web Audio API. Soon to come: MIDI Clock/Transport control, MIDI IN/OUT, and custom sample kits. Check it out or view the git below!</p>
+                    <div class="links">
+                        <a href="https://rhythmodulum.netlify.app" target="_blank">Check It Out</a>
+                        <a href="https://github.com/GeorgeLuther/rhythmodulum" target="_blank">View The Git</a>
+                    </div>
                 </div>
-                <div class="item">
-                    <a href="https://github.com/GeorgeLuther/choralator" target="_blank">CHORALATOR</a>
+                <div class="item b">
+                    <h3>CHORALATOR</h3>
                     <p>A web app that generates music with up to four voices by concatenating randomly generated motifs into larger musical forms. Currently available as an Ableton Live 'M4L' device.</p>
+                    <div class="links">
+                        <a href="https://drive.google.com/file/d/1LPwzdxmeq0OA19RDOUyLk8q0LmFCpnBL/view" target="_blank">Hear It Play</a>
+                        <a href="https://github.com/GeorgeLuther/choralator" target="_blank">View The Git</a>
+                    </div>
                 </div>
-                <div class="item">
-                    <a href="https://www.youtube.com/watch?v=EWrygtUhy7U&t=0m4s" target="_blank">RACQUETSONG</a>
+                <div class="item c">
+                    <h3>RACQUETSONG</h3>
                     <p>A virtual space in Unity for improvising music through controlled randomness and the physicality of raquetball. Made in collaboration with Sean Nealon.</p>
+                    <div class="links">
+                        <a href="https://www.youtube.com/watch?v=EWrygtUhy7U&t=0m4s" target="_blank">See It In Action</a>
+                        <!-- <a href=#>No Git Yet</a> -->
+                    </div>
                 </div>
             </div>
         </section>
+<!-- Contact Form -->
         <section id="contact-form">
             <h2>REACH ME</h2>
-
+            <div class="group contacts">
+                <div class="item contact-info">
+                    <a href="mailto:georgelutherstudio@gmail.com">GeorgeLutherStudio@Gmail.Com</a>
+                    <a href="tel:1-860-559-6235">(860) 559-6235</a>
+                </div>
+                <div class="item links">
+                    <a href="https://www.linkedin.com/in/georgeluther/" target="_blank">linkedIn</a>
+                    <a href="https://github.com/GeorgeLuther" target="_blank">github</a>
+                    <a href="https://www.instagram.com/georgeluther/?hl=en" target="_blank">instagram</a>
+                    <a href="https://www.youtube.com/channel/UCsNW38Yjrw3uQx3UWXHS0_w/about?view_as=subscriber" target="_blank">youtube</a>
+                </div>
+            </div>
         </section>
       </main>
   </body>
